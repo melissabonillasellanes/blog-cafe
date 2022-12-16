@@ -113,4 +113,9 @@ img {
         display: flex;
         gap: 2rem;
     }
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
 }
