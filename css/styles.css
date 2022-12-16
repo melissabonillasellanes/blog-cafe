@@ -83,6 +83,10 @@ img {
     margin-top: 5rem;
 }
 
+.barra {
+    padding-top: 4rem;
+}
+
 .logo {
     color: var(--blanco);
 }
@@ -158,6 +162,12 @@ img {
 .widget-curso__label,
 .widget-curso__info {
     font-size: 2rem;
+}
+
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
 
 @media (min-width: 768px) {
