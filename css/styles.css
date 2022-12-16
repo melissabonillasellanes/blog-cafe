@@ -192,3 +192,16 @@ img {
         display: inline-block;
     }
 }
+
+/** Sobre Nosotros **/
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        gap: 2rem;
+    }
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto {
+        flex-basis: 50%;
+    }
+}
